@@ -1,6 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
-
+## This file contains a program for computing, and caching the inverse of
+## matrices.
 
 ## This function creates a special "matrix" object that can cache its inverse.
 
@@ -17,7 +16,6 @@ makeCacheMatrix <- function(matrix = matrix()) {
          setinverse = setinverse,
          getinverse = getinverse)
 }
-
 
 ## This function computes the inverse of the special "matrix" returned by
 ## makeCacheMatrix above. If the inverse has already been calculated (and
